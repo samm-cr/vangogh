@@ -1,0 +1,90 @@
+body{margin: 0%;
+background-color: #ECF0F1;
+font-family: "leelawadee UI";}
+
+/*inicio texto*/
+.texto_inicio{
+margin-left: 8%;
+margin-right: 8%;
+margin-top: 3%;
+margin-bottom: 3%;
+text-align: justify;
+font-size: 20px;
+}
+/*Menu*/
+html {
+box-sizing: border-box;}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+  letter-spacing: 1.1px;}
+ .contenedor{
+    position: relative;
+    display: ;}
+.texto-encima{
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);}
+.logo{margin-right: 0%;}
+.azul{margin-top: 0%;
+margin-top: 
+}
+
+
+.contenedor{
+    position: relative;
+    display: ;}
+.texto-encima{
+    position: absolute;
+    top: 50%;
+    left: -95%;
+    transform: translate(-50%, -50%);}
+header{  width: 100%;
+  position: fixed;
+  z-index: 100;}
+
+.contenedor ul, .contenedor li a{
+            display: block;
+            padding: 10px;
+            position: relative;
+            text-decoration: none;
+            text-align: left;
+            padding: 10px 30px;
+            border-radius: 10px;
+            color: white;
+            font-family: "leelawadee UI";
+            font-size: 18px;
+            cursor: pointer;
+            text-align: right;}
+
+ul li .inicio:after{
+        position: absolute;
+        bottom: 20px;
+        left: 0px;
+        width: 100%;
+        height: 4px;
+        background-color: white;
+        content: "";
+        opacity: 0;
+        transition: opacity 0.3s ease 0s, transform 0.3s ease 0s;
+        transform: translateY(20px);}
+
+ul li a:hover:after{
+        opacity:1;
+        transform: translateY(15px) }
+.dropdown{display: relative;
+         display: inline-block;}
+.contenido{display: none;
+         position: absolute;
+         background-color: white;
+         border-radius: 10px;
+         min-width: 160px;
+         z-index: 1;}
+.contenido a{color: white;
+         padding: 2px 6px;
+         text-decoration: none;
+         display: block;}
+.dropdown:hover .contenido{display: block;}
